@@ -13,7 +13,7 @@ def crew
 end
 
 def greet_crew (crew)
-  value = crew.each {|crew_member| "Hello #{crew_member}."}
+  value = crew.map {|crew_member| "Hello #{crew_member}."}
   binding.pry
 end
 
