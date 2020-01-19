@@ -19,3 +19,4 @@ seashore_shell = GasStation.new("The Seashore Shell", 40)
 dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
 binding.pry
 dinobones.unleaded_price = 100
+binding.pry
